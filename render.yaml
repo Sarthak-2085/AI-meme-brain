@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ai-meme-brain
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: IMGFLIP_USERNAME
+        sync: false
+      - key: IMGFLIP_PASSWORD
+        sync: false
+      - key: WEBHOOK_SECRET
+        sync: false

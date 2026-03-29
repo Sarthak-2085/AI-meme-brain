@@ -17,14 +17,10 @@ IMGFLIP_PASSWORD = os.environ.get("IMGFLIP_PASSWORD")
 WEBHOOK_SECRET   = os.environ.get("WEBHOOK_SECRET", "meme-secret-123")
 
 MEME_TEMPLATES = [
-    {"id": "181913649", "name": "Drake Hotline Bling",          "use_for": "prefer new thing over old thing"},
-    {"id": "87743020",  "name": "Two Buttons",                   "use_for": "hard choice or dilemma"},
-    {"id": "112126428", "name": "Distracted Boyfriend",          "use_for": "ignoring one thing for another"},
     {"id": "101470",    "name": "Ancient Aliens",                "use_for": "conspiracy or unexplained tech"},
     {"id": "61579",     "name": "One Does Not Simply",           "use_for": "something harder than it looks"},
     {"id": "131087935", "name": "Running Away Balloon",          "use_for": "label-based comparison or distraction"},
     {"id": "4087833",   "name": "Waiting Skeleton",              "use_for": "long wait, delays, slow releases"},
-    {"id": "188390779", "name": "Woman Yelling at Cat",          "use_for": "two opposing views or misunderstanding"},
     {"id": "100777631", "name": "Bernie Once Again Asking",      "use_for": "repeated request or recurring problem"},
     {"id": "93895088",  "name": "Expanding Brain",               "use_for": "escalating levels of intelligence or ideas"},
     {"id": "129242436", "name": "Change My Mind",                "use_for": "strong controversial opinion"},
